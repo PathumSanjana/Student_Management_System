@@ -1,8 +1,11 @@
+import"../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
     <div className="App">
-     <h1>frontend</h1>
+     <Navbar/>
     </div>
   );
 }
